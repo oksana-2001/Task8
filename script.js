@@ -16,7 +16,11 @@ document.querySelector('#btnRetry').addEventListener('click', function () {
     maxValue = 100;
     orderNumber = 1;
     operation = null;
+     
     if(gameRun === false){ 
+        let minValue = parseInt(prompt('Минимальное знание числа для игры','0'));
+        let maxValue = parseInt(prompt('Максимальное знание числа для игры','100'));
+        alert(`Загадайте любое целое число от ${minValue} до ${maxValue}, а я его угадаю`);
         orderNumberField.innerText = orderNumber;
         answerNumber  = Math.floor((minValue + maxValue) / 2);
         answerField.innerText = `Вы загадали число ${answerNumber }?`;
