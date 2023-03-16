@@ -1,0 +1,28 @@
+.game-card {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Open Sans', monospace;
+    justify-content: center;
+}
+
+#btnOver:hover{
+    background-color: blueviolet;
+}
+
+.card-header, .card-footer{
+    background-color: rgb(107, 107, 192);
+    color: azure;
+ }
+
+#btnLess:hover{
+    background-color: rgb(220, 230, 32);
+}
+
+#btnEqual:hover{
+    background-color: rgb(205, 65, 139);
+}
+
+#btnRetry{
+    background-color: blueviolet;
+    color: azure;
+}
